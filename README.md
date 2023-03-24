@@ -14,7 +14,7 @@ Alizer (which stands for Application Analyzer) is a utilily whose goal is to ext
 - tools used to build the application
 
 Also based on these informations, Alizer can also select one devfile (cloud workspace file) from a list of available devfiles 
-and/or detect components (the concept of component is taken from Odo and its definition can be read on [odo.dev](https://odo.dev/docs/getting-started/basics/#component)).
+and/or detect components (the concept of component is taken from Odo and its definition can be read on [odo.dev](https://odo.dev/docs/overview/concepts#component)).
 
 Alizer comes in 4 different implementations:
 
@@ -65,7 +65,7 @@ Please note that the devfile object that is returned by the method is one of the
 
 ### Component detection
 
-Alizer is also able to detect components. The concept of component is taken from Odo and its definition can be read on [odo.dev](https://odo.dev/docs/getting-started/basics/#component).
+Alizer is also able to detect components. The concept of component is taken from Odo and its definition can be read on [odo.dev](https://odo.dev/docs/overview/concepts#component).
 
 The detection of a component is based on only one rule. It is discovered if and only if the main language of the component source is one of those that supports component detection (Java, Python, Javascript, Go, ...)
 
